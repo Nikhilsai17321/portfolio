@@ -839,6 +839,22 @@ h3 {
     margin: 0 0 18px;
 }
 
+.project-card__links {
+    margin-top: 24px;
+    font-family: var(--font-mono);
+    font-size: .78rem;
+    color: var(--lime);
+}
+
+.project-card__links a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.project-card__links a:hover {
+    color: var(--cyan);
+}
+
 /* =========================================================
    Contact
    ========================================================= */
